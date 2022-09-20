@@ -1,14 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     vertical-align: baseline;
     background: transparent;
     font-weight: normal;
     text-decoration: none;
     outline: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 ol,
@@ -19,9 +17,9 @@ del {
     text-decoration: line-through;
 }
 body {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: #1c2c40;
+    color: rgb(28, 44, 64);
     overflow-x: hidden;
     min-width: 320px;
     font-weight: 400;
@@ -29,18 +27,14 @@ body {
 input,
 textarea,
 select {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-
 a {
-    color: #1c2c40;
+    color: rgb(28, 44, 64);
 }
 a:hover,
 .submit:hover {
-    filter: alpha(opacity = 85);
-    -moz-opacity: 0.85;
-    -khtml-opacity: 0.85;
     opacity: 0.85;
 }
 .thumb {
@@ -53,7 +47,7 @@ a:hover,
 p {
     line-height: 1.6em;
     font-size: 16px;
-    font-family: "Inter", Arial;
+    font-family: Inter, Arial;
     font-weight: 400;
 }
 .hidden {
@@ -65,92 +59,83 @@ br.clear {
 }
 .wrapper {
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 1440px;
 }
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-Black.woff2") format("woff2"),
         url("../fonts/Inter-Black.woff") format("woff");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"),
         url("../fonts/Inter-ExtraBold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-Bold.woff2") format("woff2"),
         url("../fonts/Inter-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-Light.woff2") format("woff2"),
         url("../fonts/Inter-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-Regular.woff2") format("woff2"),
         url("../fonts/Inter-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-Thin.woff2") format("woff2"),
         url("../fonts/Inter-Thin.woff") format("woff");
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-Medium.woff2") format("woff2"),
         url("../fonts/Inter-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-ExtraLight.woff2") format("woff2"),
         url("../fonts/Inter-ExtraLight.woff") format("woff");
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: "Inter";
+    font-family: Inter;
     src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
         url("../fonts/Inter-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
-/* ====================== */
 #main {
-    background-image: url(../images/Vector\ 279.png);
+    background-image: url("../images/Vector 279.png");
     height: 100vh;
     background-size: cover;
     z-index: 0;
@@ -161,7 +146,7 @@ br.clear {
     position: absolute;
     z-index: -1;
     top: 0px;
-    height: 100vh;
+    height: 138%;
     width: 100%;
     background-image: url("../images/Subtract.png");
     background-size: cover;
@@ -169,47 +154,36 @@ br.clear {
 }
 #main section.wrapper {
 }
-
 #main header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
 }
-
-#main header div.left {
-}
-
 #main header div.left h1 {
 }
-
 #main header div.left h1 a {
     display: inline-block;
-    width: 50%;
+    width: 60%;
 }
-
 #main header div.left h1 a img {
     display: block;
     width: 100%;
 }
-
 #main header div.middle {
     width: 48%;
 }
-
 #main header div.middle ul {
     display: flex;
 }
-
 #main header div.middle ul li {
     margin-right: 60px;
     font-weight: 300;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 #main header div.middle ul li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
-
 #main header div.right ul li {
     text-align: center;
 }
@@ -218,7 +192,6 @@ br.clear {
     color: rgb(255, 255, 255);
 }
 #main header div.right ul li a.button {
-    color: #fff;
     font-size: 18px;
     padding: 12px 34px;
     display: inline-block;
@@ -235,23 +208,24 @@ br.clear {
 #main div.container {
     position: absolute;
     z-index: 2;
-    margin-top: 90px;
+    padding: 75px 28px;
 }
 #main div.container h1 {
-    font-size: 55px;
-    font-weight: bold;
+    font-size: 60px;
+    font-weight: 600;
     width: 55%;
     color: rgb(255, 255, 255);
 }
 #main div.container p {
+    margin: 30px 0px;
     font-weight: 300;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    width: 62%;
 }
-
 #main div.container a.button {
     margin-top: 20px;
-    font-size: 13px;
-    padding: 14px 30px;
+    font-size: 18px;
+    padding: 15px 41px;
     border-radius: 35px;
     display: inline-block;
     background: linear-gradient(
@@ -262,4 +236,78 @@ br.clear {
         rgb(220, 255, 225) 100%
     );
     color: rgb(255, 255, 255);
+}
+#about {
+    padding: 143px 0px;
+    background: url("../images/Vector 283.png") -78px center / 60% no-repeat;
+    /* z-index: 1; */
+    /* position: absolute; */
+}
+#about div.content {
+    padding: 18px 0px;
+}
+#about div.content h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#about div.content p.one {
+    font-size: 17px;
+    width: 53%;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#about div.content p {
+    font-size: 17px;
+    width: 55%;
+    margin-bottom: 16px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+#our_services { 
+
+}
+
+#our_services section.top  { 
+
+}
+
+#our_services section.top  h2 { 
+
+}
+
+#our_services section.top  div.services { 
+
+}
+
+#our_services section.top  div.services ul { 
+
+}
+
+#our_services section.top  div.services ul li { 
+
+}
+
+#our_services section.top  div.services ul li div.frame { 
+
+}
+
+#our_services section.top  div.services ul li div.frame img { 
+
+}
+
+#our_services section.top  div.services ul li div.picture { 
+
+}
+
+#our_services section.top  div.services ul li div.picture img { 
+
+}
+
+#our_services section.top  div.services ul li h3 { 
+
+}
+
+#our_services section.top  div.services ul li p { 
+
 }
