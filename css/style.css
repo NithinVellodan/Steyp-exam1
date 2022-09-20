@@ -66,7 +66,7 @@ br.clear {
 .wrapper {
     width: 90%;
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 1440px;
 }
 @font-face {
     font-family: "Inter";
@@ -147,4 +147,119 @@ br.clear {
     font-weight: 600;
     font-style: normal;
     font-display: swap;
+}
+/* ====================== */
+#main {
+    background-image: url(../images/Vector\ 279.png);
+    height: 100vh;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+#main::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/Subtract.png");
+    background-size: cover;
+    opacity: 2;
+}
+#main section.wrapper {
+}
+
+#main header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#main header div.left {
+}
+
+#main header div.left h1 {
+}
+
+#main header div.left h1 a {
+    display: inline-block;
+    width: 50%;
+}
+
+#main header div.left h1 a img {
+    display: block;
+    width: 100%;
+}
+
+#main header div.middle {
+    width: 48%;
+}
+
+#main header div.middle ul {
+    display: flex;
+}
+
+#main header div.middle ul li {
+    margin-right: 60px;
+    font-weight: 300;
+    color: #fff;
+}
+#main header div.middle ul li:last-child {
+    margin-right: 0;
+}
+
+#main header div.right ul li {
+    text-align: center;
+}
+#main header div.middle ul li a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#main header div.right ul li a.button {
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 34px;
+    display: inline-block;
+    border-radius: 35px;
+    background: linear-gradient(
+        32deg,
+        rgb(8, 89, 16) 0%,
+        rgb(75, 153, 81) 0%,
+        rgb(132, 194, 137) 54%,
+        rgb(220, 255, 225) 100%
+    );
+    color: rgb(255, 255, 255);
+}
+#main div.container {
+    position: absolute;
+    z-index: 2;
+    margin-top: 90px;
+}
+#main div.container h1 {
+    font-size: 55px;
+    font-weight: bold;
+    width: 55%;
+    color: rgb(255, 255, 255);
+}
+#main div.container p {
+    font-weight: 300;
+    color: #fff;
+}
+
+#main div.container a.button {
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 14px 30px;
+    border-radius: 35px;
+    display: inline-block;
+    background: linear-gradient(
+        32deg,
+        rgb(8, 89, 16) 0%,
+        rgb(75, 153, 81) 0%,
+        rgb(132, 194, 137) 54%,
+        rgb(220, 255, 225) 100%
+    );
+    color: rgb(255, 255, 255);
 }
