@@ -49,6 +49,7 @@ p {
     font-size: 16px;
     font-family: Inter, Arial;
     font-weight: 400;
+    /* margin-bottom: 20px; */
 }
 .hidden {
     display: none;
@@ -272,8 +273,11 @@ br.clear {
 
 #our_services section.top h2 {
     text-align: center;
-    font-size: 44px;
+    font-size: 50px;
     font-weight: 600;
+    width: 23%;
+    margin: 0 auto;
+    padding-bottom: 19px;
 }
 
 #our_services section.top div.services {
@@ -281,35 +285,86 @@ br.clear {
 
 #our_services section.top div.services ul {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #our_services section.top div.services ul li {
     /* display: flex; */
-
     text-align: center;
+    width:;
 }
 
 #our_services section.top div.services ul li div.frame {
-    width: 100px;
+    width: 143px;
     margin: 0 auto;
+    position: relative;
 }
 
-#our_services section.top div.services ul li div.frame img {
+#our_services section.top div.services ul li div.frame div.imgFrame {
+    width: 130px;
+}
+#our_services section.top div.services ul li div.frame div.imgFrame img {
     width: 100%;
     display: block;
 }
 
 #our_services section.top div.services ul li div.picture {
+    position: absolute;
+    left: 41px;
+    top: 43px;
+    width: 45px;
 }
 
 #our_services section.top div.services ul li div.picture img {
-    width: 25%;
+    display: block;
+    width: 100%;
 }
 
 #our_services section.top div.services ul li h3 {
     font-weight: 600;
     text-align: center;
+    font-size: 30px;
+    margin: 16px 0;
 }
 
 #our_services section.top div.services ul li p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 19px;
+    font-weight: 500;
+}
+#redefine { 
+
+}
+
+#redefine::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    height: 138%;
+    width: 100%;
+    background-image: url("../images/Vector\ 284.png");
+    background-size: cover;
+    opacity: 2;
+}
+
+#redefine section.content { 
+
+}
+
+#redefine section.content div.right { 
+
+}
+#redefine section.content div.right h2 { 
+
+}
+
+#redefine section.content div.right p { 
+
+}
+
+#redefine section.content div.right a.button { 
+
 }
