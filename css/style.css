@@ -292,7 +292,6 @@ br.clear {
 #our_services section.top div.services ul li {
     /* display: flex; */
     text-align: center;
-    width:;
 }
 
 #our_services section.top div.services ul li div.frame {
@@ -334,37 +333,320 @@ br.clear {
     font-size: 19px;
     font-weight: 500;
 }
-#redefine { 
 
+#bottom {
+    background: url("../images/Vector 284.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
-#redefine::after {
+#bottom section.wrapper {
+}
+
+#bottom section.content {
+    display: flex;
+    align-items: center;
+}
+
+#main {
+    background-image: url("../images/Vector 279.png");
+    height: 100vh;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+#main::after {
     content: "";
     position: absolute;
     z-index: -1;
     top: 0px;
     height: 138%;
     width: 100%;
-    background-image: url("../images/Vector\ 284.png");
+    background-image: url("../images/Subtract.png");
     background-size: cover;
     opacity: 2;
 }
-
-#redefine section.content { 
-
+#main section.wrapper {
+}
+#main header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+#main header div.left h1 {
+}
+#main header div.left h1 a {
+    display: inline-block;
+    width: 60%;
+}
+#main header div.left h1 a img {
+    display: block;
+    width: 100%;
+}
+#main header div.middle {
+    width: 48%;
+}
+#main header div.middle ul {
+    display: flex;
+}
+#main header div.middle ul li {
+    margin-right: 60px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+#main header div.middle ul li:last-child {
+    margin-right: 0px;
+}
+#main header div.right ul li {
+    text-align: center;
+}
+#main header div.middle ul li a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+#main header div.right ul li a.button {
+    font-size: 18px;
+    padding: 12px 34px;
+    display: inline-block;
+    border-radius: 35px;
+    background: linear-gradient(
+        32deg,
+        rgb(8, 89, 16) 0%,
+        rgb(75, 153, 81) 0%,
+        rgb(132, 194, 137) 54%,
+        rgb(220, 255, 225) 100%
+    );
+    color: rgb(255, 255, 255);
+}
+#main div.container {
+    position: absolute;
+    z-index: 2;
+    padding: 75px 28px;
+}
+#main div.container h1 {
+    font-size: 60px;
+    font-weight: 600;
+    width: 55%;
+    color: rgb(255, 255, 255);
+}
+#main div.container p {
+    margin: 30px 0px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    width: 62%;
+}
+#main div.container a.button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px 41px;
+    border-radius: 35px;
+    display: inline-block;
+    background: linear-gradient(
+        32deg,
+        rgb(8, 89, 16) 0%,
+        rgb(75, 153, 81) 0%,
+        rgb(132, 194, 137) 54%,
+        rgb(220, 255, 225) 100%
+    );
+    color: rgb(255, 255, 255);
+}
+#about {
+    padding: 143px 0px;
+    background: url("../images/Vector 283.png") -78px center / 60% no-repeat;
+    /* z-index: 1; */
+    /* position: absolute; */
+}
+#about div.content {
+    padding: 18px 0px;
+}
+#about div.content h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#about div.content p.one {
+    font-size: 17px;
+    width: 53%;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#about div.content p {
+    font-size: 17px;
+    width: 55%;
+    margin-bottom: 16px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+#our_services {
 }
 
-#redefine section.content div.right { 
-
-}
-#redefine section.content div.right h2 { 
-
+#our_services section.top {
 }
 
-#redefine section.content div.right p { 
-
+#our_services section.top h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    width: 23%;
+    margin: 0 auto;
+    padding-bottom: 19px;
 }
 
-#redefine section.content div.right a.button { 
+#our_services section.top div.services {
+}
 
+#our_services section.top div.services ul {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#our_services section.top div.services ul li {
+    /* display: flex; */
+    text-align: center;
+}
+
+#our_services section.top div.services ul li div.frame {
+    width: 143px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#our_services section.top div.services ul li div.frame div.imgFrame {
+    width: 130px;
+}
+#our_services section.top div.services ul li div.frame div.imgFrame img {
+    width: 100%;
+    display: block;
+}
+
+#our_services section.top div.services ul li div.picture {
+    position: absolute;
+    left: 41px;
+    top: 43px;
+    width: 45px;
+}
+
+#our_services section.top div.services ul li div.picture img {
+    display: block;
+    width: 100%;
+}
+
+#our_services section.top div.services ul li h3 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    margin: 16px 0;
+}
+
+#our_services section.top div.services ul li p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#bottom {
+    background: url("../images/Vector 284.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 15%;
+    /* z-index: -13; */
+}
+
+#bottom section.wrapper {
+}
+
+#bottom section.content {
+    display: flex;
+    align-items: center;
+}
+
+#bottom section.content div.left {
+}
+
+#bottom section.content div.left div.img {
+    padding: 80px;
+}
+
+#bottom section.content div.left div.img img {
+}
+
+#bottom section.content div.right {
+}
+
+#bottom section.content div.right h2 {
+}
+
+#bottom section.content div.right p.one {
+}
+
+#bottom section.content div.right p {
+}
+
+#bottom section.content div.right a.button {
+}
+
+#bottom section.content {
+}
+* #our_services section.bottom section.content {
+    padding-top: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+tion.content div.left {
+}
+
+#bottom section.content div.left div.img {
+    padding: 60px;
+}
+
+#bottom section.content div.left div.img img {
+    border-radius: 84% 67% 106% 86% / 86% 86% 86% 88%;
+}
+
+#bottom section.content div.right {
+}
+
+#bottom section.content div.right h2 {
+    width: 134%;
+    font-size: 47px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#bottom section.content div.right p.one {
+}
+
+#bottom section.content div.right p {
+    font-size: 17px;
+    width: 143%;
+    margin-bottom: 20px;
+}
+
+#bottom section.content div.right a.button {
+    padding: 9px 22px;
+    border-radius: 35px;
+    display: inline-block;
+    background: linear-gradient(
+        32deg,
+        rgb(8, 89, 16) 0%,
+        rgb(75, 153, 81) 0%,
+        rgb(132, 194, 137) 54%,
+        rgb(220, 255, 225) 100%
+    );
+    color: rgb(255, 255, 255);
+}
+
+#bottom section.content {
+}
+* #our_services section.bottom section.content {
+    padding-top: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
