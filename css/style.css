@@ -49,7 +49,6 @@ p {
     font-size: 16px;
     font-family: Inter, Arial;
     font-weight: 400;
-    /* margin-bottom: 20px; */
 }
 .hidden {
     display: none;
@@ -181,7 +180,7 @@ br.clear {
     color: rgb(255, 255, 255);
 }
 #main header div.middle ul li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 #main header div.right ul li {
     text-align: center;
@@ -219,7 +218,8 @@ br.clear {
     margin: 30px 0px;
     font-weight: 300;
     color: rgb(255, 255, 255);
-    width: 62%;
+    width: 66%;
+    font-size: 14px;
 }
 #main div.container a.button {
     margin-top: 20px;
@@ -239,8 +239,6 @@ br.clear {
 #about {
     padding: 143px 0px;
     background: url("../images/Vector 283.png") -78px center / 60% no-repeat;
-    /* z-index: 1; */
-    /* position: absolute; */
 }
 #about div.content {
     padding: 18px 0px;
@@ -255,7 +253,6 @@ br.clear {
     font-size: 15px;
     width: 50%;
     margin-bottom: 10px;
-    font-weight: 5 vx00;
 }
 #about div.content p {
     font-size: 14px;
@@ -266,33 +263,27 @@ br.clear {
 }
 #our_services section.top {
 }
-
 #our_services section.top h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
     width: 27%;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-bottom: 19px;
 }
-
 #our_services section.top div.services ul {
     display: flex;
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
-
 #our_services section.top div.services ul li {
-    /* display: flex; */
     text-align: center;
 }
-
 #our_services section.top div.services ul li div.frame {
     width: 143px;
-    margin: 0 auto;
+    margin: 0px auto;
     position: relative;
 }
-
 #our_services section.top div.services ul li div.frame div.imgFrame {
     width: 110px;
 }
@@ -300,144 +291,131 @@ br.clear {
     width: 100%;
     display: block;
 }
-
 #our_services section.top div.services ul li div.picture {
     position: absolute;
     left: 35px;
     top: 35px;
     width: 38px;
 }
-
 #our_services section.top div.services ul li div.picture img {
     display: block;
     width: 100%;
 }
-
 #our_services section.top div.services ul li h3 {
     font-weight: 600;
     text-align: center;
     font-size: 20px;
-    margin: 16px 0;
+    margin: 16px 0px;
 }
-
 #our_services section.top div.services ul li p {
     width: 89%;
-    margin: 0 auto;
+    margin: 0px auto;
     font-size: 14px;
     font-weight: 500;
 }
-
 #bottom {
-    background: url("../images/Vector 284.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background: url("../images/Vector 284.png") center bottom / cover no-repeat;
+    height: 746px;
 }
-
 #bottom section.wrapper {
 }
-
 #bottom section.content {
-    display: flex;
-    align-items: center;
-}
-
-/*  */
-
-#bottom {
-    background: url("../images/Vector 284.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    /* padding: 9%; */
-}
-
-#bottom section.wrapper {
-}
-
-#bottom section.content {
-    display: flex;
-    align-items: center;
-}
-
-#bottom section.content div.left {
-    width: 40%;
-}
-
-#bottom section.content div.left div.img {
-    /* padding: 80px; */
-}
-
-#bottom section.content div.left div.img img {
-}
-
-#bottom section.content div.right {
-}
-
-#bottom section.content div.right h2 {
-}
-
-#bottom section.content div.right p.one {
-}
-
-#bottom section.content div.right p {
-}
-
-#bottom section.content div.right a.button {
-}
-
-#bottom section.content {
-}
-* #our_services section.bottom section.content {
-    padding-top: 302px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 185px;
 }
-
-#bottom section.content div.left div.img {
-    width: 120%;
+#bottom section.content div.left {
+    width: 40%;
 }
-
 #bottom section.content div.left div.img img {
-    border-radius: 84% 67% 106% 86% / 86% 86% 86% 88%;
-    width: 100%;
     display: block;
+    width: 100%;
+    border-radius: 59% 41% 47% 53% / 49% 56% 44% 51%;
 }
-
 #bottom section.content div.right {
-    width: 60%;
+    width: 61%;
+    margin-left: 32px;
 }
-
 #bottom section.content div.right h2 {
-    width: 136%;
-    font-size: 21px;
+    width: 65%;
+    font-size: 34px;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
-
 #bottom section.content div.right p.one {
 }
-
 #bottom section.content div.right p {
-    font-size: 17px;
-    width: 143%;
-    margin-bottom: 20px;
+    font-size: 13px;
+    width: 67%;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
-
 #bottom section.content div.right a.button {
-    padding: 9px 22px;
+    font-size: 13px;
+    padding: 6px 17px;
     border-radius: 35px;
     display: inline-block;
     background: linear-gradient(
         32deg,
-        rgb(8, 89, 16) 0%,
+        rgb(124, 211, 132) 0%,
         rgb(75, 153, 81) 0%,
         rgb(132, 194, 137) 54%,
         rgb(220, 255, 225) 100%
     );
     color: rgb(255, 255, 255);
 }
+#consulting {
+}
 
-#bottom section.content {
+#consulting section.wrapper {
+}
+
+#consulting section.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#consulting section.content div.left {
+}
+
+#consulting section.content div.left h2 {
+    font-size: 30px;
+    margin: 0 auto; 
+    margin-top: 120px;
+    font-weight: 600;
+}
+
+#consulting section.content div.right {
+}
+
+#consulting section.content div.right div.one {
+}
+
+#consulting section.content div.right div.one div.consulting {
+}
+#consulting section.content div.right div.one div.consulting img {
+}
+
+#consulting section.content div.right div.one h3 {
+}
+
+#consulting section.content div.right div.one p {
+}
+
+#consulting section.content div.right div.two {
+}
+#consulting section.content div.right div.two div.top {
+}
+#consulting section.content div.right div.two div.top div.consulting {
+}
+
+#consulting section.content div.right div.two div.top div.consulting img {
+}
+
+#consulting section.content div.right div.two div.top h3 {
+}
+
+#consulting section.content div.right div.two div.top p {
 }
