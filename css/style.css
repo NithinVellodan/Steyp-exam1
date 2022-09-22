@@ -46,9 +46,9 @@ a:hover,
 }
 p {
     line-height: 1.6em;
-    font-size: 16px;
+    font-size: 15px;
     font-family: Inter, Arial;
-    font-weight: 400;
+    font-weight: 500;
 }
 .hidden {
     display: none;
@@ -382,40 +382,85 @@ br.clear {
 
 #consulting section.content div.left h2 {
     font-size: 30px;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 120px;
     font-weight: 600;
 }
-
+#consulting {
+    padding: 80px 0px;
+}
+#consulting section.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#consulting section.content div.left {
+    width: 45%;
+}
+#consulting section.content div.left h2 {
+    font-size: 41px;
+    font-weight: 600;
+    width: 433px;
+    margin: 0 auto;
+}
 #consulting section.content div.right {
+    display: flex;
+    align-items: center;
+    width: 60%;
 }
-
 #consulting section.content div.right div.one {
+    width: 32%;
+    text-align: center;
 }
-
 #consulting section.content div.right div.one div.consulting {
+    width: 50px;
+    margin: 0px auto 10px;
 }
 #consulting section.content div.right div.one div.consulting img {
+    display: block;
+    width: 100%;
 }
-
 #consulting section.content div.right div.one h3 {
-}
-
-#consulting section.content div.right div.one p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 #consulting section.content div.right div.two {
+    width: 32%;
+    text-align: center;
 }
 #consulting section.content div.right div.two div.top {
+    margin-bottom: 90px;
 }
 #consulting section.content div.right div.two div.top div.consulting {
+    width: 50px;
+    margin: 0px auto 10px;
 }
-
 #consulting section.content div.right div.two div.top div.consulting img {
+    display: block;
+    width: 100%;
 }
-
 #consulting section.content div.right div.two div.top h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
-
 #consulting section.content div.right div.two div.top p {
 }
+#consulting section.content div.right div.two div.bottom {
+}
+#consulting section.content div.right div.two div.bottom div.consulting {
+    width: 50px;
+    margin: 0px auto 10px;
+}
+#consulting section.content div.right div.two div.bottom div.consulting img {
+    display: block;
+    width: 100%;
+}
+#consulting section.content div.right div.two div.bottom h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
