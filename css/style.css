@@ -12,6 +12,7 @@
 ol,
 ul {
     list-style: none;
+    width: 115%;
 }
 del {
     text-decoration: line-through;
@@ -463,4 +464,388 @@ br.clear {
     margin-bottom: 10px;
     font-weight: 600;
 }
+#redefine {
+    padding: 50px 0;
+    position: relative;
+    padding-bottom: 125px;
+}
+#redefine div.background_image {
+    position: absolute;
+    z-index: -1;
+    transform: rotateY(180deg);
+    width: 100%;
+    top: -97px;
+    height: 100%;
+}
+#redefine div.background_image img {
+    width: 100%;
+    display: block;
+}
 
+#redefine section.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 83px;
+}
+
+#redefine section.content div.left {
+    width: 50%;
+}
+
+#redefine section.content div.left h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    width: 69%;
+    margin-bottom: 15px;
+}
+
+#redefine section.content div.left p {
+    width: 91%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#redefine section.content div.left h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#redefine section.content div.left ol {
+}
+
+#redefine section.content div.left ol li {
+    margin-bottom: 5px;
+}
+#redefine section.content div.left ol li:last-child {
+    margin-bottom: 0;
+}
+
+#redefine section.content div.right {
+    width: 45%;
+}
+
+#redefine section.content div.right div.img {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#redefine section.content div.right div.img img {
+    border-radius: 70% 30% 57% 43% / 54% 46% 54% 46%;
+    width: 100%;
+    display: block;
+}
+
+#brands {
+    padding-top: 125px;
+}
+
+#brands section.content {
+}
+
+#brands section.content div.top {
+    margin-bottom: 100px;
+}
+
+#brands section.content div.top h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#brands section.content div.middle {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#brands section.content div.middle div.bg-img {
+    background: url(../images/Frame\ 3466320.png);
+    background-repeat: no-repeat;
+    background-size: 299px;
+    width: 53%;
+    background-position-x: 133px;
+    position: relative;
+}
+#brands section.content div.middle div.bg-img div.img {
+    position: absolute;
+    right: 193px;
+    bottom: 120px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    width: 32%;
+    height: 51%;
+    position: absolute;
+    right: 104px;
+    top: 67px;
+}
+#brands section.content div.middle div.bg-img div.img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    height: 98%;
+    position: absolute;
+    right: 3px;
+}
+
+#brands section.content div.middle div.content {
+    width: 50%;
+    padding: 51px 0;
+}
+
+#brands section.content div.middle div.content h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+#brands section.content div.middle div.content p {
+    font-size: 14px;
+}
+
+#brands section.content div.bottom {
+    display: flex;
+    align-items: center;
+    padding: 5% 0;
+    width: 88%;
+    margin: 0 auto;
+}
+
+#brands section.content div.bottom h3.left {
+    font-size: 34px;
+    font-weight: 600;
+    width: 22%;
+}
+
+#brands section.content div.bottom ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brands section.content div.bottom ul li {
+}
+
+#brands section.content div.bottom ul li a {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brands section.content div.bottom ul li a img {
+    width: 100%;
+    display: block;
+}
+
+#form {
+    padding: 40px 0;
+    background: rgb(100, 246, 119);
+    background: linear-gradient(
+        132deg,
+        rgba(100, 246, 119, 1) 0%,
+        rgba(126, 201, 171, 1) 50%,
+        rgba(151, 156, 156, 1) 100%
+    );
+}
+
+#form section.wrapper {
+}
+
+#form section.wrapper section.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form section.wrapper section.container div.left {
+    width: 50%;
+}
+
+#form section.wrapper section.container div.left div.pc {
+    width: 80%;
+}
+
+#form section.wrapper section.container div.left div.pc img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#form section.wrapper section.container div.right {
+    width: 50%;
+    text-align: left;
+}
+
+#form section.wrapper section.container div.right h2 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#form section.wrapper section.container div.right form {
+}
+
+#form section.wrapper section.container div.right form div.one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#form section.wrapper section.container div.right form div.one input {
+    width: 48%;
+    background: #fff;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#form
+    section.wrapper
+    section.container
+    div.right
+    form
+    div.one
+    input::placeholder {
+    color: #000;
+    font-weight: bold;
+}
+#form section.wrapper section.container div.right form div.two {
+}
+
+#form section.wrapper section.container div.right form div.two input {
+    width: 100%;
+    background: #fff;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: -16px;
+}
+#form
+    section.wrapper
+    section.container
+    div.right
+    form
+    div.two
+    input::placeholder {
+    color: #000;
+    font-weight: bold;
+}
+#form
+    section.wrapper
+    section.container
+    div.right
+    form
+    div.two
+    input:last-child {
+    height: 74px;
+}
+
+#form section.wrapper section.container div.right a.button {
+    font-weight: 500;
+    font-size: 13px;
+    padding: 12px 14px;
+    border-radius: 35px;
+    display: inline-block;
+    background: linear-gradient(
+        32deg,
+        rgb(124, 211, 132) 0%,
+        rgb(75, 153, 81) 0%,
+        rgb(132, 194, 137) 54%,
+        rgb(220, 255, 225) 100%
+    );
+    color: rgb(255, 255, 255);
+}
+footer {
+    background-color: #12587f;
+    padding: 30px 0;
+}
+
+footer section.wrapper {
+    /* margin-bottom: -1px; */
+}
+
+footer section.wrapper hr {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+footer section.wrapper section.container {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 31px; */
+    /* padding: 52px; */
+    padding: 30px 0 0 0;
+}
+
+footer section.container section.bottom {
+    text-align: center;
+}
+
+footer section.container section.bottom h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+footer section.container section.bottom a {
+    text-align: center;
+    display: block;
+    /* margin: 6px; */
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+footer section.container section.bottom div.social {
+    display: flex;
+}
+
+footer section.container section.bottom div.social ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section.container section.bottom div.social ul li {
+}
+
+footer section.container section.bottom div.social ul li a {
+    /* width: 10px; */
+    display: inline-block;
+    background: rgb(75 153 81);
+    border-radius: 4px;
+    padding: 2px;
+    /* padding: 2px 3px; */
+}
+
+footer section.container section.bottom div.social ul li a img {
+    /* display: flex; */
+    padding: -2px;
+    width: 20px;
+}
+
+footer section.container div.list {
+}
+
+footer section.container div.list h2 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+
+footer section.container div.list ul {
+}
+
+footer section.container div.list ul li {
+    margin-top: 9px;
+}
+
+footer section.container div.list ul li a {
+    font-size: 12px;
+    color: #ffff;
+}
