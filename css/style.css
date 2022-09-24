@@ -988,6 +988,74 @@ footer section.container div.list ul li a {
     }
 }
 @media all and (max-width: 768px) {
+    #main div.container h1 {
+        font-size: 38px;
+        width: 75%;
+    }
+    #main::after {
+        height: 150%;
+    }
+    #about {
+        padding: 70px 0px;
+    }
+    #about div.content p.one {
+        font-size: 13px;
+    }
+    #about div.content p {
+        font-size: 13px;
+    }
+    #our_services section.top div.services ul li p {
+        width: 91%;
+        font-size: 11px;
+    }
+    #bottom section.content div.right h2 {
+        width: 100%;
+    }
+    #bottom section.content div.right p {
+        width: 95%;
+    }
+    #bottom section.content div.left {
+        width: 56%;
+    }
+    #consulting section.content {
+        flex-direction: column;
+    }
+    #consulting section.content div.left {
+        width: 100%;
+    }
+    #consulting section.content div.right {
+        width: 100%;
+    }
+    #redefine section.content {
+        flex-direction: column-reverse;
+    }
+    #redefine section.content div.right {
+        width: 65%;
+    }
+    #redefine section.content div.left {
+        width: 90%;
+    }
+    #brands {
+        padding-top: 50px;
+    }
+    #brands section.content div.top h2 {
+        margin-bottom: 0px;
+    }
+    #brands section.content div.top {
+        margin-bottom: 25px;
+    }
+    #brands section.content div.middle div.bg-img div.img {
+        width: 40%;
+        height: 36%;
+        right: 78px;
+        top: 46px;
+    }
+    #brands section.content div.middle div.content p {
+        font-size: 13px;
+    }
+    #brands section.content div.bottom h3.left {
+        font-size: 26px;
+    }
 }
 @media all and (max-width: 640px) {
 }
