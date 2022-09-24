@@ -1312,4 +1312,27 @@ footer section.container div.list ul li a {
     #main div.container a.button {
         margin-top: 48px;
     }
+    #about {
+        margin-top: -196px;
+    }
+    #brands section.content div.middle div.content h4 {
+        font-size: 24px;
+    }
+    #brands section.content div.top h2 {
+        font-size: 24px;
+    }
+    #form section.wrapper section.container div.right h2 {
+        font-size: 24px;
+    }
+    #bottom section.content div.right a.button {
+        font-size: 14px;
+        padding: 10px 17px;
+    }
+    #consulting {
+        padding: 10px 0px;
+    }
+    #redefine section.content div.left h2 {
+        font-size: 22px;
+        margin-top: 24px;
+    }
 }
