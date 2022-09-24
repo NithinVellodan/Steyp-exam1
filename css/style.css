@@ -1157,6 +1157,159 @@ footer section.container div.list ul li a {
     }
 }
 @media all and (max-width: 480px) {
+    #our_services section.top div.services ul {
+        flex-wrap: wrap;
+    }
+    #our_services section.top h2 {
+        width: 100%;
+    }
+    #about div.content {
+        padding: 18px 0px;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #about div.content p.one {
+        font-size: 13px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    #about div.content p {
+        font-size: 13px;
+        margin: 11px auto;
+        width: 100%;
+    }
+    #about div.content h2 {
+        padding-top: 38px;
+        width: 100%;
+        font-size: 28px;
+        margin: 14px auto;
+    }
+    #about {
+        background: url("../images/Vector 283.png") -439px center / 224% no-repeat;
+        margin-top: -144px;
+    }
+    #bottom section.content {
+        padding-top: 40px;
+    }
+    #bottom section.content div.left div.img img {
+        height: 200px;
+        border-radius: 50%;
+    }
+    #bottom section.content div.right {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #bottom section.content div.right h2 {
+        font-size: 30px;
+    }
+
+    #bottom {
+        background: none;
+        height: 0%;
+    }
+    #consulting section.content div.left h2 {
+        width: 84%;
+        margin: 14px auto;
+        font-size: 30px;
+    }
+    #consulting section.content div.right {
+        flex-wrap: wrap;
+    }
+    #consulting section.content div.right div.one {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #consulting section.content div.right div.two {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #consulting section.content div.right div.two div.top {
+        margin-bottom: 30px;
+    }
+    #redefine div.background_image {
+        display: none;
+    }
+    #consulting {
+        padding: 50px 0px;
+    }
+    #redefine section.content div.left h2 {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+        margin-top: 14px;
+    }
+    #redefine section.content div.left p {
+        font-size: 12px;
+    }
+    #redefine section.content div.left h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #redefine section.content div.left ol li {
+        font-size: 14px;
+    }
+    #brands {
+        padding-top: 0px;
+    }
+
+    #brands section.content div.middle div.content {
+        width: 90%;
+        padding: 2px 0;
+    }
+    #brands section.content div.middle div.content h4 {
+        text-align: center;
+    }
+    #brands section.content div.bottom {
+        padding: 15% 0;
+    }
+    #main header div.left h1 a {
+        width: 35%;
+    }
+    #main header div.right ul li a.button {
+        font-size: 14px;
+        padding: 10px 32px;
+    }
+    #main div.container {
+        padding: unset;
+    }
+    #main div.container h1 {
+        font-size: 32px;
+        width: 98%;
+    }
+    #main div.container p {
+        width: 85%;
+        font-size: 14px;
+    }
+    #main::after {
+        height: 100%;
+    }
 }
 @media all and (max-width: 360px) {
+    #consulting section.content div.left h2 {
+        width: 82%;
+        margin: 14px auto;
+        font-size: 26px;
+    }
+    #bottom section.content div.right h2 {
+        font-size: 21px;
+    }
+    #bottom section.content div.left div.img img {
+        height: 165px;
+    }
+    #about div.content h2 {
+        font-size: 25px;
+    }
+    #about div.content p.one {
+        font-size: 11px;
+    }
+    #main div.container h1 {
+        font-size: 26px;
+    }
+    #main div.container a.button {
+        margin-top: 48px;
+    }
 }
