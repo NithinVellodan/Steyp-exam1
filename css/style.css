@@ -329,6 +329,8 @@ br.clear {
 #bottom section.content div.left {
     width: 40%;
 }
+#bottom section.content div.left div.img {
+}
 #bottom section.content div.left div.img img {
     display: block;
     width: 100%;
@@ -848,4 +850,148 @@ footer section.container div.list ul li {
 footer section.container div.list ul li a {
     font-size: 12px;
     color: #ffff;
+}
+/* Responsive */
+
+@media all and (max-width: 1380px) {
+    #main::after {
+        height: 162%;
+    }
+}
+@media all and (max-width: 1280px) {
+    #about div.content h2 {
+        margin-bottom: 10px;
+        padding-top: 38px;
+    }
+    #our_services section.top div.services ul li p {
+        width: 95%;
+    }
+    #bottom section.content {
+        padding-top: 260px;
+    }
+    #consulting section.content div.right p {
+        font-size: 12px;
+    }
+    #redefine section.content div.left h2 {
+        font-size: 30px;
+        width: 80%;
+    }
+    #redefine section.content {
+        margin-top: 18px;
+    }
+    #redefine section.content div.left p {
+        width: 100%;
+        font-size: 12px;
+    }
+    #redefine section.content div.left ol li {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    #redefine section.content div.right div.img img {
+        border-radius: 50%;
+    }
+    #redefine {
+        padding: 72px 0;
+    }
+    #brands section.content div.middle {
+        width: 100%;
+    }
+    #brands section.content div.middle div.bg-img div.img {
+        width: 28%;
+        height: 45%;
+        right: 156px;
+        top: 81px;
+    }
+    #brands section.content div.bottom h3.left {
+        width: 30%;
+    }
+    #redefine div.background_image {
+        top: -171px;
+    }
+}
+@media all and (max-width: 1080px) {
+    #about {
+        background: url("../images/Vector 283.png") -78px center / 92% no-repeat;
+    }
+    #bottom section.content div.left div.img img {
+        height: 274px;
+    }
+    #redefine div.background_image {
+        top: -74px;
+    }
+}
+@media all and (max-width: 980px) {
+    #main div.container {
+        padding: 0px 28px;
+    }
+    #main header div.middle {
+        display: none;
+    }
+    #about {
+        background: url("../images/Vector 283.png") -318px center / 127% no-repeat;
+    }
+    #our_services section.top div.services ul {
+        width: 100%;
+    }
+    #bottom section.content div.left div.img {
+        width: 70%;
+    }
+    #bottom section.content div.left div.img img {
+        height: 200px;
+    }
+    #bottom section.content div.right h2 {
+        width: 90%;
+    }
+    #consulting section.content div.left h2 {
+        width: 85%;
+    }
+    #redefine div.background_image {
+        width: 131%;
+        left: -98px;
+    }
+    #redefine section.content div.left h3 {
+        font-size: 20px;
+    }
+    #redefine section.content div.right div.img {
+        width: 100%;
+    }
+    #brands section.content div.middle div.bg-img {
+        width: 65%;
+        background-position-x: 21px;
+    }
+    #brands section.content div.bottom {
+        width: 100%;
+    }
+    #brands section.content div.bottom h3.left {
+        width: 37%;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    #brands section.content div.middle div.bg-img {
+        background-size: 100%;
+        width: 40%;
+        background-position-x: -7px;
+    }
+    #brands section.content div.middle div.bg-img div.img {
+        width: 35%;
+        height: 40%;
+        right: 90px;
+        top: 77px;
+    }
+    #brands section.content div.middle div.bg-img {
+        width: 40%;
+        background-position-x: -14px;
+    }
+    #brands section.content div.middle div.bg-img div.img img {
+        height: 100%;
+        right: 0px;
+    }
+}
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 640px) {
+}
+@media all and (max-width: 480px) {
+}
+@media all and (max-width: 360px) {
 }
