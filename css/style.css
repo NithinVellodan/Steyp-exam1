@@ -986,6 +986,10 @@ footer section.container div.list ul li a {
         height: 100%;
         right: 0px;
     }
+    #redefine div.background_image {
+        width: 100%;
+        left: 0;
+    }
 }
 @media all and (max-width: 768px) {
     #main div.container h1 {
@@ -1058,6 +1062,99 @@ footer section.container div.list ul li a {
     }
 }
 @media all and (max-width: 640px) {
+    #main div.container h1 {
+        font-size: 35px;
+        width: 78%;
+    }
+    #about {
+        padding: 20px 0px;
+    }
+    #about {
+        background: url("../images/Vector 283.png") -477px center / 179% no-repeat;
+    }
+    #bottom section.content {
+        padding-top: 208px;
+    }
+    #bottom section.content {
+        flex-direction: column;
+    }
+    #bottom section.content div.left div.img {
+        width: 100%;
+    }
+    #bottom section.content div.right {
+        width: 94%;
+        margin-left: 0;
+    }
+    #consulting section.content div.left h2 {
+        width: 90%;
+    }
+    #redefine section.content div.right {
+        width: 75%;
+    }
+    #redefine {
+        padding: 5px 0;
+    }
+    #redefine section.content div.left ol li {
+        font-size: 12px;
+    }
+    #redefine section.content div.left ol {
+        width: 100%;
+    }
+    #brands section.content div.middle div.bg-img {
+        display: none;
+    }
+    #brands section.content div.middle div.content {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #brands section.content div.bottom {
+        flex-direction: column;
+    }
+    #brands section.content div.bottom h3.left {
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #brands section.content div.bottom ul {
+        width: 100%;
+    }
+    #form section.wrapper section.container {
+        flex-wrap: wrap;
+    }
+    #form section.wrapper section.container div.left div.pc {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #form section.wrapper section.container div.right {
+        width: 100%;
+    }
+    #form section.wrapper section.container div.left {
+        width: 100%;
+    }
+    #form section.wrapper section.container div.right h2 {
+        font-weight: 700;
+        font-size: 33px;
+        margin: 12px 0;
+    }
+    footer section.wrapper section.container {
+        padding: 10px 0 0 0;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    footer section.container section.bottom {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    footer section.container section.bottom div.social {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+    footer section.container div.list {
+        width: 30%;
+        text-align: center;
+    }
 }
 @media all and (max-width: 480px) {
 }
